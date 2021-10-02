@@ -67,6 +67,7 @@ gamePlane = Plane(level)
 while True:
     inp = input('type \'end\' to exit\nYour move: \n\'row\' \'col\'\n')
     if(inp == 'end'):
+        print("you exited the game")
         break
 
     try:
